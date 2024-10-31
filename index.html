@@ -22,6 +22,10 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
 <head>
   <meta charset="utf-8">
   <link rel="icon" type="image/svg+xml" sizes="32x32" href="../Insofshop.uz/assets/corporate/img/logos/logo-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+
   <title style="color: red;">InsofShop</title>
   <style>
     header {
@@ -114,9 +118,10 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                         <li><i class="fa fa-phone"></i><span>+998 (97) 441 14 45</span></li>
                         <!-- BEGIN CURRENCIES -->
                         <li class="shop-currencies">
-                            <a href="javascript:void(0);">€</a>
-                            <a href="javascript:void(0);">£</a>
-                            <a href="javascript:void(0);" class="current">$</a>
+                          <a href="javascript:void(0);"><i class="fas fa-euro-sign"></i></a>
+                          <a href="javascript:void(0);"><i class="fas fa-pound-sign"></i></a>
+                          <a href="javascript:void(0);" class="current"><i class="fas fa-dollar-sign"></i></a>
+                          
                         </li>
                         <!-- END CURRENCIES -->
                         <!-- BEGIN LANGS -->
@@ -135,10 +140,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                 <!-- BEGIN TOP BAR MENU -->
                 <div class="col-md-6 col-sm-6 additional-nav">
                     <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="shop-account.html">My Account</a></li>
-                        <li><a href="shop-wishlist.html">My Wishlist</a></li>
-                        <li><a href="shop-checkout.html">Checkout</a></li>
-                        <li><a href="page-login.html">Log In</a></li>
+                      <li><a href="shop-account.html"><i class="fas fa-user"></i> Мой Аккаунт</a></li>
+                      <li><a href="shop-wishlist.html"><i class="fas fa-heart"></i> Мой Список Желаний</a></li>
+                      <li><a href="shop-checkout.html"><i class="fas fa-shopping-cart"></i> Оформление Заказа</a></li>
+                      <li><a href="page-login.html"><i class="fas fa-sign-in-alt"></i> Войти</a></li>
+                      
                     </ul>
                 </div>
                 <!-- END TOP BAR MENU -->
@@ -239,99 +245,57 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
         <!-- BEGIN NAVIGATION -->
         <div class="header-navigation">
           <ul>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Home shop 
-                
-              </a>
-                
-              <!-- BEGIN DROPDOWN MENU -->
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a href="shop-product-list.html">Hi Tops <i class="fa fa-angle-right"></i></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="shop-product-list.html">Second Level Link</a></li>
-                    <li><a href="shop-product-list.html">Second Level Link</a></li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                        Second Level Link 
-                        <i class="fa fa-angle-right"></i>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a href="shop-product-list.html">Third Level Link</a></li>
-                        <li><a href="shop-product-list.html">Third Level Link</a></li>
-                        <li><a href="shop-product-list.html">Third Level Link</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li><a href="shop-product-list.html">Running Shoes</a></li>
-                <li><a href="shop-product-list.html">Jackets and Coats</a></li>
-              </ul>
-              <!-- END DROPDOWN MENU -->
-            </li>
             <li class="dropdown dropdown-megamenu">
               <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Auto shop
-                
+                Дом
               </a>
               <ul class="dropdown-menu">
                 <li>
                   <div class="header-navigation-content">
                     <div class="row">
                       <div class="col-md-4 header-navigation-col">
-                        <h4>Footwear</h4>
+                        <h4><i class="fas fa-couch"></i> Мебель</h4>
                         <ul>
-                          <li><a href="shop-product-list.html">Astro Trainers</a></li>
-                          <li><a href="shop-product-list.html">Basketball Shoes</a></li>
-                          <li><a href="shop-product-list.html">Boots</a></li>
-                          <li><a href="shop-product-list.html">Canvas Shoes</a></li>
-                          <li><a href="shop-product-list.html">Football Boots</a></li>
-                          <li><a href="shop-product-list.html">Golf Shoes</a></li>
-                          <li><a href="shop-product-list.html">Hi Tops</a></li>
-                          <li><a href="shop-product-list.html">Indoor and Court Trainers</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-chair"></i> Диваны и Кресла</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-bed"></i> Спальные Комнаты</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-table"></i> Столы и Стулья</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-wardrobe"></i> Шкафы</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-tv"></i> ТВ Стойки</a></li>
                         </ul>
                       </div>
                       <div class="col-md-4 header-navigation-col">
-                        <h4>Clothing</h4>
+                        <h4><i class="fas fa-utensils"></i> Кухонные Принадлежности</h4>
                         <ul>
-                          <li><a href="shop-product-list.html">Base Layer</a></li>
-                          <li><a href="shop-product-list.html">Character</a></li>
-                          <li><a href="shop-product-list.html">Chinos</a></li>
-                          <li><a href="shop-product-list.html">Combats</a></li>
-                          <li><a href="shop-product-list.html">Cricket Clothing</a></li>
-                          <li><a href="shop-product-list.html">Fleeces</a></li>
-                          <li><a href="shop-product-list.html">Gilets</a></li>
-                          <li><a href="shop-product-list.html">Golf Tops</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-oven"></i> Духовые Шкафы и Микроволновые Печи</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-refrigerator"></i> Холодильники</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-utensil-spoon"></i> Посуда</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-pot"></i> Кастрюли и Сковороды</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-blender"></i> Блендеры и Миксеры</a></li>
                         </ul>
                       </div>
                       <div class="col-md-4 header-navigation-col">
-                        <h4>Accessories</h4>
+                        <h4><i class="fas fa-paint-brush"></i> Декор для Дома</h4>
                         <ul>
-                          <li><a href="shop-product-list.html">Belts</a></li>
-                          <li><a href="shop-product-list.html">Caps</a></li>
-                          <li><a href="shop-product-list.html">Gloves, Hats and Scarves</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-carpet"></i> Ковры</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-drapery"></i> Шторы</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-framed-picture"></i> Картины и Рамки</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-lightbulb"></i> Лампы</a></li>
                         </ul>
-
-                        <h4>Clearance</h4>
+            
+                        <h4><i class="fas fa-tag"></i> Скидки</h4>
                         <ul>
-                          <li><a href="shop-product-list.html">Jackets</a></li>
-                          <li><a href="shop-product-list.html">Bottoms</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-couch"></i> Мебель</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-gift"></i> Декоративные Аксессуары</a></li>
                         </ul>
                       </div>
                       <div class="col-md-12 nav-brands">
                         <ul>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/pioner.png" alt="esprit" title="esprit"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/byd.webp" alt="next" title="next"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/monanol.jpg" alt="esprit" title="esprit"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/magicar.png" alt="next" title="next"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/delcor.jpg" alt="gap" title="gap"></a>
-
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/pioner.png" alt="esprit" title="esprit"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/byd.webp" alt="next" title="next"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/Chevrolet-logo-486cc2ec.webp" alt="zara" title="zara"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/magicar.png" alt="next" title="next"></a>
-                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/delcor.jpg" alt="gap" title="gap"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/mebel_logo1.png" alt="mebel_brand1" title="mebel_brand1"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/mebel_logo2.png" alt="mebel_brand2" title="mebel_brand2"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/kitchen_logo1.png" alt="kitchen_brand1" title="kitchen_brand1"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/kitchen_logo2.png" alt="kitchen_brand2" title="kitchen_brand2"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/decor_logo1.png" alt="decor_brand1" title="decor_brand1"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/decor_logo2.png" alt="decor_brand2" title="decor_brand2"></a>
                         </ul>
                       </div>
                     </div>
@@ -339,88 +303,172 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                 </li>
               </ul>
             </li>
-            <li><a href="shop-item.html">Phone shop</a></li>
-            <li class="dropdown dropdown100 nav-catalogue">
+            
+            
+            
+            
+            
+            <li class="dropdown dropdown-megamenu">
               <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                New promotions
-                
+                Авто
               </a>
               <ul class="dropdown-menu">
                 <li>
                   <div class="header-navigation-content">
                     <div class="row">
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <div class="product-item">
-                          <div class="pi-img-wrapper">
-                            <a href="shop-item.html"><img src="assets/corporate/img/img-price/diamond-2k.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
-                          </div>
-                          <h3><a href="shop-item.html">DIAMOND 2K 10-Dum</a></h3>
-                          <div class="pi-price">$69.00</div>
-                          <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-                        </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4><i class="fas fa-cogs"></i> Двигатель</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-gas-pump"></i> Топливная система</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-cogs"></i> Запчасти и комплекты</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-oil-can"></i> Система смазки</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-filter"></i> Фильтры</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-tint"></i> Масла и жидкости</a></li>
+                        </ul>
                       </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <div class="product-item">
-                          <div class="pi-img-wrapper">
-                            <a href="shop-item.html"><img src="assets/corporate/img/img-price/diamond-2k.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
-                          </div>
-                          <h3><a href="shop-item.html">DIAMOND 2K 11-Dum</a></h3>
-                          <div class="pi-price">$149.00</div>
-                          <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-                        </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4><i class="fas fa-bolt"></i> Электрическая система</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-battery-full"></i> Аккумуляторы</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-lightbulb"></i> Освещение</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-car-battery"></i> Стартеры и генераторы</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-tachometer-alt"></i> Сигналы и измерительные приборы</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-plug"></i> Провода и розетки</a></li>
+                        </ul>
                       </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <div class="product-item">
-                          <div class="pi-img-wrapper">
-                            <a href="shop-item.html"><img src="assets/corporate/img/img-price/ts-7.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
-                          </div>
-                          <h3><a href="shop-item.html">TS-7 10-Dum</a></h3>
-                          <div class="pi-price">$75.00</div>
-                          <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-                        </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4><i class="fas fa-circle"></i> Шины и колеса</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-snowflake"></i> Летние шины</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-snowflake"></i> Зимние шины</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-gear"></i> Диски</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-balance-scale"></i> Балансировочные грузы</a></li>
+                        </ul>
+            
+                        <h4><i class="fas fa-tools"></i> Аксессуары</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-car"></i> Внешние аксессуары</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-car-side"></i> Внутренние аксессуары</a></li>
+                        </ul>
                       </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <div class="product-item">
-                          <div class="pi-img-wrapper">
-                            <a href="shop-item.html"><img src="assets/corporate/img/img-price/ts-7.jpg" class="img-responsive" alt="Berry Lace Dress"></a>
-                          </div>
-                          <h3><a href="shop-item.html">TS-7 10-Dum</a></h3>
-                          <div class="pi-price">$65.00</div>
-                          <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-                        </div>
+                      <div class="col-md-12 nav-brands">
+                        <ul>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/pioner.png" alt="Pioner" title="Pioner"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/byd.webp" alt="BYD" title="BYD"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/monanol.jpg" alt="Monanol" title="Monanol"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/magicar.png" alt="Magicar" title="Magicar"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/delcor.jpg" alt="Delcor" title="Delcor"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/Chevrolet-logo-486cc2ec.webp" alt="Chevrolet" title="Chevrolet"></a>
+                        </ul>
                       </div>
                     </div>
                   </div>
                 </li>
               </ul>
             </li>
+            
+
+
+            <li class="dropdown dropdown-megamenu">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+                Мобильные и Электронные
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="header-navigation-content">
+                    <div class="row">
+                      <div class="col-md-4 header-navigation-col">
+                        <h4><i class="fas fa-mobile-alt"></i> Мобильные Устройства</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-mobile-alt"></i> Смартфоны</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-tablet-alt"></i> Планшеты</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-headphones-alt"></i> Наушники</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-watch"></i> Умные Часы</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4><i class="fas fa-laptop"></i> Компьютеры</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-desktop"></i> Настольные Компьютеры</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-laptop"></i> Ноутбуки</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-tablet-alt"></i> Планшеты</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-keyboard"></i> Клавиатуры</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4><i class="fas fa-cogs"></i> Запчасти</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-hdd"></i> Жесткие Диски</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-memory"></i> Оперативная Память (RAM)</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-fan"></i> Вентиляторы</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-cog"></i> Запчасть для Ремонта</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4><i class="fas fa-signal"></i> Коммуникационные Части</h4>
+                        <ul>
+                          <li><a href="shop-product-list.html"><i class="fas fa-projector"></i> Проекторы</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-wifi"></i> WiFi Модуль</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-random"></i> Свитчи</a></li>
+                          <li><a href="shop-product-list.html"><i class="fas fa-plug"></i> Другие</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-12 nav-brands">
+                        <ul>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/pioner.png" alt="Pioner" title="Pioner"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/byd.webp" alt="BYD" title="BYD"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/monanol.jpg" alt="Monanol" title="Monanol"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/magicar.png" alt="Magicar" title="Magicar"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/delcor.jpg" alt="Delcor" title="Delcor"></a>
+                          <a href="shop-product-list.html"><img src="assets/corporate/img/logos/Chevrolet-logo-486cc2ec.webp" alt="Chevrolet" title="Chevrolet"></a>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            
+            
+            
+            
+            
+            
+
+
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Pages 
+                Страницы
                 
               </a>
                 
-              <ul class="dropdown-menu">
-                <li class="active"><a href="index.html">Home Default</a></li>
-                <li><a href="shop-index-header-fix.html">Home Header Fixed</a></li>
-                <li><a href="shop-index-light-footer.html">Home Light Footer</a></li>
-                <li><a href="shop-product-list.html">Product List</a></li>
-                <li><a href="shop-search-result.html">Search Result</a></li>
-                <li><a href="shop-item.html">Product Page</a></li>
-                <li><a href="shop-shopping-cart-null.html">Shopping Cart (Null Cart)</a></li>
-                <li><a href="shop-shopping-cart.html">Shopping Cart</a></li>
-                <li><a href="shop-checkout.html">Checkout</a></li>
-                <li><a href="shop-about.html">About</a></li>
-                <li><a href="shop-contacts.html">Contacts</a></li>
-                <li><a href="shop-account.html">My account</a></li>
-                <li><a href="shop-wishlist.html">My Wish List</a></li>
-                <li><a href="shop-goods-compare.html">Product Comparison</a></li>
-                <li><a href="shop-standart-forms.html">Standart Forms</a></li>
-                <li><a href="shop-faq.html">FAQ</a></li>
-                <li><a href="shop-privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="shop-terms-conditions-page.html">Terms &amp; Conditions</a></li>
-              </ul>
-            </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+                  Страницы 
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li class="active"><a href="index.html"><i class="fas fa-home"></i> Главная (По умолчанию)</a></li>
+                  <li><a href="shop-index-header-fix.html"><i class="fas fa-thumbtack"></i> Главная (Фиксированная)</a></li>
+                  <li><a href="shop-index-light-footer.html"><i class="fas fa-sun"></i> Главная (Светлый футер)</a></li>
+                  <li><a href="shop-product-list.html"><i class="fas fa-th-list"></i> Список товаров</a></li>
+                  <li><a href="shop-search-result.html"><i class="fas fa-search"></i> Результат поиска</a></li>
+                  <li><a href="shop-item.html"><i class="fas fa-box"></i> Страница товара</a></li>
+                  <li><a href="shop-shopping-cart-null.html"><i class="fas fa-shopping-cart"></i> Корзина (Пустая корзина)</a></li>
+                  <li><a href="shop-shopping-cart.html"><i class="fas fa-shopping-cart"></i> Корзина</a></li>
+                  <li><a href="shop-checkout.html"><i class="fas fa-credit-card"></i> Оформление заказа</a></li>
+                  <li><a href="shop-about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                  <li><a href="shop-contacts.html"><i class="fas fa-address-book"></i> Контакты</a></li>
+                  <li><a href="shop-account.html"><i class="fas fa-user"></i> Мой аккаунт</a></li>
+                  <li><a href="shop-wishlist.html"><i class="fas fa-heart"></i> Мой список желаемого</a></li>
+                  <li><a href="shop-goods-compare.html"><i class="fas fa-exchange-alt"></i> Сравнение товаров</a></li>
+                  <li><a href="shop-standart-forms.html"><i class="fas fa-file-alt"></i> Стандартные формы</a></li>
+                  <li><a href="shop-faq.html"><i class="fas fa-question-circle"></i> Часто задаваемые вопросы</a></li>
+                  <li><a href="shop-privacy-policy.html"><i class="fas fa-shield-alt"></i> Политика конфиденциальности</a></li>
+                  <li><a href="shop-terms-conditions-page.html"><i class="fas fa-file-contract"></i> Условия и положения</a></li>
+                </ul>
+              </li>
+              
             
             
 
@@ -655,38 +703,57 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
           <!-- BEGIN SIDEBAR -->
           <div class="sidebar col-md-3 col-sm-4">
             <ul class="list-group margin-bottom-25 sidebar-menu">
-              <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Ladies</a></li>
+              <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i>Дом </a></li>
               <li class="list-group-item clearfix dropdown">
                 <a href="shop-product-list.html">
                   <i class="fa fa-angle-right"></i>
-                  Mens
+                  Авто
                   
                 </a>
                 <ul class="dropdown-menu">
                   <li class="list-group-item dropdown clearfix">
-                    <a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Shoes </a>
+                    <a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Авто </a>
                       <ul class="dropdown-menu">
                         <li class="list-group-item dropdown clearfix">
-                          <a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Classic </a>
+                          <a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Двигатель (Engine)</a>
                           <ul class="dropdown-menu">
-                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Classic 1</a></li>
-                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Classic 2</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Топливная система (Fuel System)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Запчасти и комплекты (Parts and Kits)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Система смазки (Lubrication System)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Фильтры (Filters)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Масла и жидкости (Oils and Fluids)</a></li>
                           </ul>
                         </li>
                         <li class="list-group-item dropdown clearfix">
-                          <a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Sport  </a>
+                          <a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Электрическая система (Electrical System)</a>
                           <ul class="dropdown-menu">
-                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Sport 1</a></li>
-                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Sport 2</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Аккумуляторы (Batteries)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Фары (Lights)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Стартеры и генераторы (Starters and Alternators)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Приборы и измерительные инструменты (Instruments and Measurement Tools)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Провода и розетки (Wires and Sockets)</a></li>
                           </ul>
                         </li>
+                        <li class="list-group-item dropdown clearfix">
+                          <a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Шины и диски (Tires and Wheels)</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Летние шины (Summer Tires)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Зимние шины (Winter Tires)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Диски (Wheels)</a></li>
+                            <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Балансировка (Balancing)</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Аксессуары (Accessories)</a></li>
+                        <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Запчасти (Parts)</a></li>
+                        <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Сервис (Service)</a></li>
                       </ul>
                   </li>
-                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Trainers</a></li>
-                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Jeans</a></li>
-                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Chinos</a></li>
-                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> T-Shirts</a></li>
+                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Обувь (Kiyim)</a></li>
+                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Джинсы (Jeans)</a></li>
+                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Чинос (Chinos)</a></li>
+                  <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Футболки (T-Shirts)</a></li>
                 </ul>
+                
               </li>
               <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Kids</a></li>
               <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Accessories</a></li>
@@ -1121,24 +1188,24 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
           <div class="col-md-4 steps-block-col">
             <i class="fa fa-truck"></i>
             <div>
-              <h2>Free shipping</h2>
-              <em>Express delivery withing 3 days</em>
+              <h2>Yetkazib berish</h2>
+              <em>3 kun ichida tezkor yetkazib berish</em>
             </div>
             <span>&nbsp;</span>
           </div>
           <div class="col-md-4 steps-block-col">
             <i class="fa fa-gift"></i>
             <div>
-              <h2>Daily Gifts</h2>
-              <em>3 Gifts daily for lucky customers</em>
+              <h2>Kundalik sovg'alar</h2>
+              <em>Baxtli mijozlar uchun har kuni 3 ta sovg'a</em>
             </div>
             <span>&nbsp;</span>
           </div>
           <div class="col-md-4 steps-block-col">
             <i class="fa fa-phone"></i>
             <div>
-              <h2>477 505 8877</h2>
-              <em>24/7 customer care available</em>
+              <h2>97 441 14 45</h2>
+              <em>24/7 mijozlarga xizmat ko'rsatish mavjud</em>
             </div>
           </div>
         </div>
@@ -1183,13 +1250,14 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
           <div class="col-md-3 col-sm-6 pre-footer-col">
             <h2>Our Contacts</h2>
             <address class="margin-bottom-40">
-              35, Lorem Lis Street, Park Ave<br>
-              California, US<br>
-              Phone: 300 323 3456<br>
-              Fax: 300 323 1456<br>
-              Email: <a href="mailto:info@metronic.com">info@metronic.com</a><br>
-              Skype: <a href="skype:metronic">metronic</a>
-            </address>
+              Toshkent shahar, C-5, 5/5<br>
+              Oʻzbekiston<br>
+              Telefon: +998 (97) 441 14 45<br>
+              Faks: +998 (97) 441 14 45<br>
+              Email: <a href="mailto:insofshop.uz@gmail.com">insofshop.uz@gmail.com</a><br>
+              Skype: <a href="skype:+998974411445">+998974411445</a>
+          </address>
+          
           </div>
           <!-- END BOTTOM CONTACTS -->
         </div>
